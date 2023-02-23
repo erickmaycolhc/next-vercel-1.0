@@ -1,12 +1,18 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
+.title a{
+  color:blue;
+}
 
+.title{
+  font-size: 60px
+}
 .description {
   display: inherit;
   justify-content: inherit;
